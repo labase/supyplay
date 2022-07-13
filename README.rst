@@ -22,6 +22,7 @@ Diversos jogos foram desenvolvidos ao longo dos anos na Daniel Pisa
 * `Jogo da Genética`_  - Aprendendo a usar herdogramas
 * `Bullying`_ - Lidando com a perseguição discriminatória nas escolas.
 * `Empoderamento`_ - Mostrando a influência das mulheres na sociedade
+* `Jeronimo`_ - A vida de São Jeronimo
 
 -------
 
@@ -62,8 +63,10 @@ LABASE_ - NCE_ - UFRJ_
 .. |license| image:: https://img.shields.io/github/license/kwarwp/kwarwp
    :target: https://gitlab.com/cetoli/eucaros/-/raw/master/LICENSE
 
-.. _Jogo da Genética: http://labase.activufrj.nce.ufrj.br
+.. _Jogo da Genética: https://bit.ly/g_genes
 
-.. _Empoderamento: http://labase.activufrj.nce.ufrj.br
+.. _Empoderamento: https://bit.ly/g_empodera
 
-.. _Bullying: http://labase.activufrj.nce.ufrj.br
+.. _Bullying: https://bit.ly/g_bully
+
+.. _Jeronimo: https://bit.ly/g_jerome

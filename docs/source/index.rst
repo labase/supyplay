@@ -6,8 +6,18 @@
 Bem vindo ao SupyPlay!
 ====================================
 
+Jogos produzidos por alunos de Costa Barros
+
++---------------+---------------+---------------+---------------+
+| :ref:`em_fe`  | :ref:`en_bu`  | :ref:`jo_ge`  | :ref:`sn_je`  |
++===============+===============+===============+===============+
+| |EmpoderaIM|  |  |BullyingIM| | |GeneticaIM|  |  |JeronimoIM| |
++---------------+---------------+---------------+---------------+
+| |EmpoderaQR|  | |BullyingQR|  | |GeneticaQR|  | |JeronimoQR|  |
++---------------+---------------+---------------+---------------+
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Conteúdo:
 
    intro.rst
@@ -40,6 +50,34 @@ LABASE_ - NCE_ - UFRJ_
 
 .. _Projeto Games Costa Barros: https://activufrj.nce.ufrj.br/community/Games_Costa_Barros
 
+.. |BullyingQR| image:: _static/bit.ly_g_bully.png
+   :width: 100px
+   :target: https://bit.ly/g_bully
+
+.. |BullyingIM| image:: _static/bullying.png
+   :width: 100px
+
+.. |EmpoderaQR| image:: _static/bit.ly_g_empodera.png
+   :width: 100px
+   :target: https://bit.ly/g_empodera
+
+.. |EmpoderaIM| image:: _static/empodera.png
+   :width: 100px
+
+.. |GeneticaQR| image:: _static/bit.ly_g_genes.png
+   :width: 100px
+   :target: https://bit.ly/g_gene
+
+.. |GeneticaIM| image:: _static/jogo_genetica.png
+   :width: 100px
+
+.. |JeronimoQR| image:: _static/bit.ly_g_jerome.png
+   :width: 100px
+   :target: https://bit.ly/g_jerome
+
+.. |JeronimoIM| image:: _static/jeronimo.png
+   :width: 100px
+
 .. |github| image:: https://img.shields.io/badge/release-22.07-blue
    :target: https://github.com/labase/supyplay/releases
 
@@ -63,9 +101,6 @@ LABASE_ - NCE_ - UFRJ_
    :target: https://raw.githubusercontent.com/labase/supyplay/main/LICENSE
 
 .. _Jogo da Genética: https://bit.ly/g_genes
-
 .. _Empoderamento: https://bit.ly/g_empodera
-
 .. _Bullying: https://bit.ly/g_bully
-
 .. _Jeronimo: https://bit.ly/g_jerome

@@ -1,3 +1,5 @@
+.. _jo_ge:
+
 Jogo da Genética
 ================
  |Jogo Gene|
@@ -12,9 +14,9 @@ Neste jogo vamos entender como funciona a hereditariedade na genética.
 
 
 .. |Jogo Gene| image:: _static/jogo_genetica.png
-   :target: http://labase.activufrj.nce.ufrj.br
+   :target: https://bit.ly/g_gene
    :alt: Jogo Genética
 
 .. |Gene QR| image:: _static/bit.ly_g_genes.png
-   :target: http://labase.activufrj.nce.ufrj.br
+   :target: https://bit.ly/g_gene
    :alt: Jogo Genética

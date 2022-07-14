@@ -4,7 +4,7 @@ Executor de Jogos SuperPython
 
 Executor de Games Inteligentes Desenvolvidos na Escola Daniel Pisa em Costa Barros.
 
-  |python| |license| |github|
+  |python| |license| |github|  |rtfd|
 
 
 :Author:  Carlo E. T. Oliveira
@@ -40,6 +40,9 @@ LABASE_ - NCE_ - UFRJ_
 .. _UFRJ: http://www.ufrj.br
 
 .. _Projeto Games Costa Barros: https://activufrj.nce.ufrj.br/community/Games_Costa_Barros
+
+.. |rtfd| image:: https://readthedocs.org/projects/supyplay/badge/?version=latest
+   :target: https://supyplay.readthedocs.io/en/latest/
 
 .. |github| image:: https://img.shields.io/badge/release-22.07-blue
    :target: https://github.com/labase/supyplay/releases

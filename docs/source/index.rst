@@ -14,7 +14,7 @@ Bem vindo ao SupyPlay!
    genetica.rst
    empodera.rst
 
-Indices e tabelas
+Índices e tabelas
 ==================
 
 * :ref:`genindex`

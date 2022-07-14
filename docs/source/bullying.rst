@@ -1,3 +1,5 @@
+.. _en_bu:
+
 Enfrentando o Bullying
 ======================
  |Jogo Bully|

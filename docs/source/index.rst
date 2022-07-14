@@ -13,6 +13,8 @@ Bem vindo ao SupyPlay!
    intro.rst
    genetica.rst
    empodera.rst
+   bullying.rst
+   jeronimo.rst
 
 Índices e tabelas
 ==================

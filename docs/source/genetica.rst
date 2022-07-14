@@ -1,5 +1,5 @@
-Executor de Jogos SuperPython
-=============================
+Jogo da Genética
+================
  |Jogo Gene|
 
 Executando

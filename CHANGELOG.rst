@@ -18,6 +18,7 @@ The format is based on `Keep a Changelog`_.
 Added
 +++++
 - Initial spike
+- Some game pages
 
 
 Changed

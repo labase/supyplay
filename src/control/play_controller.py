@@ -23,14 +23,14 @@ Changelog
 ---------
 
 .. versionadded::    22.09
-        Adds version from version.py file.
+        Remove encoding from exception error and add exception message.
 
 """
 from bottle import Bottle, get, view, post, request
 from model.datasource import DS
 from base64 import decodebytes as dcd
-from base64 import encodebytes as ecd
 from version import __version__
+# from base64 import encodebytes as ecd
 
 __author__ = 'carlo'
 DEFAULT_CODE = """# default
@@ -107,11 +107,12 @@ def gamer(mod, name):
     # noinspection PyBroadException
     try:
         code_file = DS.get_file_contents(modl, namel)
+        print("gamer code_file", code_file)
         code = code_file.content
         # code = dcd(str.encode(code_file.content)).decode("utf-8")
-    except Exception as _:
-        code = "# " + ".".join([modl, namel, "main.py"])
-        code = ecd(bytearray(code.encode("UTF8"))).decode("utf-8")
+    except Exception as ex:
+        code = "# " + ".".join([modl, namel, "main.py", str(ex)])
+        # code = ecd(bytearray(code.encode("UTF8"))).decode("utf-8")
         print("gamerException", code)
 
     return dict(

@@ -16,6 +16,17 @@
 #
 # Você deve ter recebido uma cópia da Licença Pública Geral GNU
 # junto com este programa, se não, veja em <http://www.gnu.org/licenses/>
+"""Conecta com a fonte dos dados, neste caso a API do Github..
+
+.. codeauthor:: Carlo Oliveira <carlo@nce.ufrj.br>
+
+Changelog
+---------
+
+.. versionadded::    22.09
+        Fix for new version of Pygithub.
+
+"""
 
 """
 ############################################################
@@ -38,6 +49,7 @@ REMOTE_URL = "https://github.com/SuPyPackage/SuPyGirls.git"
 USERNAME = "kwarwp"
 PASSWORD = dcd(str.encode(op.environ["IKW"])).decode("utf-8")
 TOKEN = dcd(str.encode(op.environ["IKT"])).decode("utf-8")
+print("TOKEN", TOKEN)
 # str(dcd(str.encode(op.environ["IKW"])))
 # USERNAME = "carlotolla"
 # PASSWORD = op.environ["ISME"]
@@ -62,7 +74,7 @@ def spike():
     cm = al.commit
 
     print(al.etag, al.commit.sha)
-    print("cont", rp.get_file_contents("/uva/main.py", cm.sha).decoded_content)
+    print("cont", rp.get_contents("/uva/main.py", cm.sha).decoded_content)
 
 
 class DataSource:
@@ -71,19 +83,20 @@ class DataSource:
         g = Github(TOKEN)
         g.get_user("kwarwp")
         self.user = g.get_user("kwarwp")
+        # print("DataSource", g, self.user)
         self.repo = None
 
     def get_file_branched(self, project, packager, moduler="main.py"):
         self.repo = self.user.get_repo(project)
         self.repo.get_branches()
         ref = self.repo.get_branch(packager).commit.sha
-        return self.repo.get_file_contents("{}/{}".format(packager, moduler), ref)
+        return self.repo.get_contents("{}/{}".format(packager, moduler), ref)
 
     def get_file_contents(self, project, packager, moduler="main.py"):
         self.repo = self.user.get_repo(project)
         path = "{}/{}" if packager else "{}{}"
         print("get_file_contents ", project, path.format(packager, moduler))
-        return self.repo.get_file_contents(path.format(packager, moduler))
+        return self.repo.get_contents(path.format(packager, moduler))
 
     def create_file(self, project, filename, decoded_content, comment=None):
         timestamp = TIMESTAMP.format(datetime.datetime.now())
@@ -104,7 +117,7 @@ class DataSource:
         timestamp = TIMESTAMP.format(datetime.datetime.now())
         comment = comment if comment else "Saved {} {}".format(filename, timestamp)
         self.repo = self.user.get_repo(project)
-        file = self.repo.get_file_contents(filename)
+        file = self.repo.get_contents(filename)
         self.repo.update_file("/{}".format(filename), comment, decoded_content, file.sha)
         return comment
 
@@ -112,7 +125,7 @@ class DataSource:
         timestamp = TIMESTAMP.format(datetime.datetime.now())
         comment = comment if comment else "Saved {} {}".format(filename, timestamp)
         self.repo = self.user.get_repo(project)
-        file = self.repo.get_file_contents(filename)
+        file = self.repo.get_contents(filename)
         file_content = dcd(str.encode(file.content)).decode("utf-8") + decoded_content
         self.repo.update_file("/{}".format(filename), comment, file_content, file.sha)
         return comment

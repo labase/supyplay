@@ -1,10 +1,38 @@
-# -*- coding: utf-8 -*-
+#! /usr/bin/env python
+# -*- coding: UTF8 -*-
+# Este arquivo é parte do programa SupyPlay
+# Copyright 2010–2022 Carlo Oliveira <carlo@nce.ufrj.br>,
+# `Labase <http://labase.activufrj.nce.ufrj.br>`__; `GPL <http://j.mp/GNU_GPL3>`__.
 #
+# SupyPlay é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral GNU como
+# publicada pela Fundação do Software Livre (FSF); na versão 2 da
+# Licença.
+#
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral GNU para maiores detalhes.
+#
+# Você deve ter recebido uma cópia da Licença Pública Geral GNU
+# junto com este programa, se não, veja em <http://www.gnu.org/licenses/>
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file does only contain a selection of the most common options. For a
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
+"""Sphinx document generation configuration file.
+
+.. codeauthor:: Carlo Oliveira <carlo@nce.ufrj.br>
+
+Changelog
+---------
+
+.. versionadded::    22.09
+        Import version from code file.
+
+"""
 
 # -- Path setup --------------------------------------------------------------
 
@@ -12,11 +40,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-import sphinx_rtd_theme
 
+import os
+import sys
+import sphinx_rtd_theme
+sys.path.insert(0, os.path.abspath('../../src'))
+from version import __version__
 
 # -- Project information -----------------------------------------------------
 
@@ -25,9 +54,9 @@ copyright = '2022, Carlo E. T. Oliveira'
 author = 'Carlo E. T. Oliveira'
 
 # The short X.Y version
-version = '22.07'
+version = __version__  # '22.07'
 # The full version, including alpha/beta/rc tags
-release = '22.07'
+release = __version__
 
 
 # -- General configuration ---------------------------------------------------

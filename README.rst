@@ -8,7 +8,7 @@ Executor de Games Inteligentes Desenvolvidos na Escola Daniel Pisa em Costa Barr
 
 
 :Author:  Carlo E. T. Oliveira
-:Version: 22.07
+:Version: 22.09
 :Affiliation: Universidade Federal do Rio de Janeiro
 :License: GNU General Public License v3 or later (GPLv3+)
 :Homepage: `Projeto Games Costa Barros`_

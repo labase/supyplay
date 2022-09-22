@@ -12,6 +12,16 @@ The format is based on `Keep a Changelog`_.
 -------------
 - to be defined
 
+`22.09`_
+----------------
+
+Added
++++++
+- Code to run games
+- Version to run from wsgi
+
+
+
 `22.07`_
 ----------------
 
@@ -38,7 +48,8 @@ LABASE_ - NCE_ - UFRJ_
 .. _NCE: http://nce.ufrj.br
 .. _UFRJ: http://www.ufrj.br
 .. _Keep a Changelog: https://keepachangelog.com/en/1.0.0/
-.. _22.07: https://gitlab.com/cetoli/eucaros/-/releases
+.. _22.07: https://github.com/labase/supyplay/releases
+.. _22.09: https://github.com/labase/supyplay/releases
 
 .. |LABASE| image:: https://cetoli.gitlab.io/spyms/image/labase-logo-8.png
    :target: http://labase.activufrj.nce.ufrj.br

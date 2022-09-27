@@ -14,9 +14,9 @@ leia o QR Code.
 
 
 .. |Jogo Bully| image:: _static/bullying.png
-   :target: https://bit.ly/g_bully
+   :target: https://bit.ly/sp_bully
    :alt: Jogo Bullying
 
 .. |Jogo QR| image:: _static/bit.ly_g_bully.png
-   :target: https://bit.ly/g_bully
+   :target: https://bit.ly/sp_bully
    :alt: Jogo Bullying

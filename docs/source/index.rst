@@ -52,28 +52,28 @@ LABASE_ - NCE_ - UFRJ_
 
 .. |BullyingQR| image:: _static/bit.ly_g_bully.png
    :width: 100px
-   :target: https://bit.ly/g_bully
+   :target: https://bit.ly/sp_bully
 
 .. |BullyingIM| image:: _static/bullying.png
    :width: 100px
 
 .. |EmpoderaQR| image:: _static/bit.ly_g_empodera.png
    :width: 100px
-   :target: https://bit.ly/g_empodera
+   :target: https://bit.ly/sp_empodera
 
 .. |EmpoderaIM| image:: _static/empodera.png
    :width: 100px
 
 .. |GeneticaQR| image:: _static/bit.ly_g_genes.png
    :width: 100px
-   :target: https://bit.ly/g_gene
+   :target: https://bit.ly/sp_gene
 
 .. |GeneticaIM| image:: _static/jogo_genetica.png
    :width: 100px
 
 .. |JeronimoQR| image:: _static/bit.ly_g_jerome.png
    :width: 100px
-   :target: https://bit.ly/g_jerome
+   :target: https://bit.ly/sp_jeronimo
 
 .. |JeronimoIM| image:: _static/jeronimo.png
    :width: 100px
@@ -82,7 +82,7 @@ LABASE_ - NCE_ - UFRJ_
    :target: https://github.com/labase/supyplay/releases
 
 
-.. |LABASE| image:: https://cetoli.gitlab.io/spyms/image/labase-logo-8.png
+.. |LABASE| image:: _static/labase.png
    :target: http://labase.activufrj.nce.ufrj.br
    :alt: LABASE
 
@@ -100,7 +100,7 @@ LABASE_ - NCE_ - UFRJ_
 .. |license| image:: https://img.shields.io/github/license/labase/supyplay
    :target: https://raw.githubusercontent.com/labase/supyplay/main/LICENSE
 
-.. _Jogo da Genética: https://bit.ly/g_genes
-.. _Empoderamento: https://bit.ly/g_empodera
-.. _Bullying: https://bit.ly/g_bully
-.. _Jeronimo: https://bit.ly/g_jerome
+.. _Jogo da Genética: https://bit.ly/sp_genes
+.. _Empoderamento: https://bit.ly/sp_empodera
+.. _Bullying: https://bit.ly/sp_bully
+.. _Jeronimo: https://bit.ly/sp_jeronimo

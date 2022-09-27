@@ -14,9 +14,9 @@ leia o QR Code.
 
 
 .. |São Jerônimo| image:: _static/jeronimo.png
-   :target: https://bit.ly/g_jerome
+   :target: https://bit.ly/sp_jeronimo
    :alt: São Jerônimo
 
 .. |Jogo QR| image:: _static/bit.ly_g_jerome.png
-   :target: https://bit.ly/g_jerome
+   :target: https://bit.ly/sp_jeronimo
    :alt: São Jerônimo

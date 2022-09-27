@@ -82,7 +82,7 @@ LABASE_ - NCE_ - UFRJ_
    :target: https://github.com/labase/supyplay/releases
 
 
-.. |LABASE| image:: _static/labase.svg
+.. |LABASE| image:: _static/labase.png
    :target: http://labase.activufrj.nce.ufrj.br
    :alt: LABASE
 

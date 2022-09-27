@@ -15,9 +15,9 @@ Nossa personagem vai nos mostrar algumas delas em seu dia a dia.
 
 
 .. |Jogo Empodera| image:: _static/empodera.png
-   :target: https://bit.ly/g_empodera
+   :target: https://bit.ly/sp_empodera
    :alt: Jogo Empodera
 
 .. |Jogo QR| image:: _static/bit.ly_g_empodera.png
-   :target: https://bit.ly/g_empodera
+   :target: https://bit.ly/sp_empodera
    :alt: Jogo Empodera

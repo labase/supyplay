@@ -8,13 +8,21 @@ Bem vindo ao SupyPlay!
 
 Jogos produzidos por alunos de Costa Barros
 
-+---------------+---------------+---------------+---------------+
-| :ref:`em_fe`  | :ref:`en_bu`  | :ref:`jo_ge`  | :ref:`sn_je`  |
-+===============+===============+===============+===============+
-| |EmpoderaIM|  |  |BullyingIM| | |GeneticaIM|  |  |JeronimoIM| |
-+---------------+---------------+---------------+---------------+
-| |EmpoderaQR|  | |BullyingQR|  | |GeneticaQR|  | |JeronimoQR|  |
-+---------------+---------------+---------------+---------------+
++---------------+---------------+---------------+
+| :ref:`em_fe`  | :ref:`en_bu`  | :ref:`jo_ge`  |
++===============+===============+===============+
+| |EmpoderaIM|  |  |BullyingIM| | |GeneticaIM|  |
++---------------+---------------+---------------+
+| |EmpoderaQR|  | |BullyingQR|  | |GeneticaQR|  |
++---------------+---------------+---------------+
+
++---------------+---------------+
+| :ref:`sn_je`  | :ref:`jo_ci`  |
++===============+===============+
+|  |JeronimoIM| |  |CitonopoIM| |
++---------------+---------------+
+| |JeronimoQR|  | |CitonopoQR|  |
++---------------+---------------+
 
 .. toctree::
    :maxdepth: 1
@@ -25,6 +33,7 @@ Jogos produzidos por alunos de Costa Barros
    empodera.rst
    bullying.rst
    jeronimo.rst
+   citonopolis.rst
 
 Índices e tabelas
 ==================
@@ -50,29 +59,36 @@ LABASE_ - NCE_ - UFRJ_
 
 .. _Projeto Games Costa Barros: https://activufrj.nce.ufrj.br/community/Games_Costa_Barros
 
-.. |BullyingQR| image:: _static/bit.ly_g_bully.png
+.. |CitonopoQR| image:: _static/bit.ly_g_citonopolis.png
+   :width: 120px
+   :target: https://bit.ly/g_citonopolis
+
+.. |CitonopoIM| image:: _static/citonopolis.png
    :width: 100px
+
+.. |BullyingQR| image:: _static/bit.ly_g_bully.png
+   :width: 120px
    :target: https://bit.ly/sp_bully
 
 .. |BullyingIM| image:: _static/bullying.png
    :width: 100px
 
 .. |EmpoderaQR| image:: _static/bit.ly_g_empodera.png
-   :width: 100px
+   :width: 120px
    :target: https://bit.ly/sp_empodera
 
 .. |EmpoderaIM| image:: _static/empodera.png
    :width: 100px
 
 .. |GeneticaQR| image:: _static/bit.ly_g_genes.png
-   :width: 100px
+   :width: 120px
    :target: https://bit.ly/sp_gene
 
 .. |GeneticaIM| image:: _static/jogo_genetica.png
    :width: 100px
 
 .. |JeronimoQR| image:: _static/bit.ly_g_jerome.png
-   :width: 100px
+   :width: 120px
    :target: https://bit.ly/sp_jeronimo
 
 .. |JeronimoIM| image:: _static/jeronimo.png

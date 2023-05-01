@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="200mm"
-   height="50mm"
-   viewBox="0 0 708.66137 177.16535"
+   width="200.43285mm"
+   height="49.520927mm"
+   viewBox="0 0 710.19508 175.46785"
    id="svg2"
    version="1.1"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8429111"
-     inkscape:cx="354.0594"
-     inkscape:cy="88.718333"
+     inkscape:cx="380.10515"
+     inkscape:cy="87.633093"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +41,11 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -50,7 +54,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,7 +61,7 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-875.19684)">
+     transform="translate(1.7041692,-876.18128)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -84,7 +87,7 @@
        height="150.10822"
        width="202.71414" />
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.00100002;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:3.95408225;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.00100002;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:3.95408;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect5479"
        width="703.82373"
        height="171.51376"

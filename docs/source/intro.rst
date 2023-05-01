@@ -40,7 +40,7 @@ LABASE_ - NCE_ - UFRJ_
    :target: http://labase.activufrj.nce.ufrj.br
    :alt: LABASE
 
-.. |Daniel Pisa| image:: https://i.imgur.com/wRPm7BZ.png
+.. |Daniel Piza| image:: https://i.imgur.com/wRPm7BZ.png
    :target: https://activufrj.nce.ufrj.br/community/Games_Costa_Barros
    :alt: Games Costa Barros
    :width: 800px

@@ -1,24 +1,25 @@
 Executor de Jogos SuperPython
 =============================
- |Daniel Pisa|
+ |Daniel Piza|
 
-Executor de Games Inteligentes Desenvolvidos na Escola Daniel Pisa em Costa Barros.
+Executor de Games Inteligentes Desenvolvidos na Escola Daniel Piza em Costa Barros.
 
   |python| |license| |github|  |rtfd|
 
 
 :Author:  Carlo E. T. Oliveira
-:Version: 22.09
+:Version: 23.05
 :Affiliation: Universidade Federal do Rio de Janeiro
 :License: GNU General Public License v3 or later (GPLv3+)
 :Homepage: `Projeto Games Costa Barros`_
 :Changelog: `CHANGELOG <CHANGELOG.rst>`_
 
-Jogos Daniel Pisa
+Jogos Daniel Piza
 ------------------
 
-Diversos jogos foram desenvolvidos ao longo dos anos na Daniel Pisa
+Diversos jogos foram desenvolvidos ao longo dos anos na Daniel Piza
 
+* `Citonópolis`_  - Uma Aventura na cidade das células orgânicas.
 * `Jogo da Genética`_  - Aprendendo a usar herdogramas
 * `Bullying`_ - Lidando com a perseguição discriminatória nas escolas.
 * `Empoderamento`_ - Mostrando a influência das mulheres na sociedade
@@ -52,7 +53,7 @@ LABASE_ - NCE_ - UFRJ_
    :target: http://labase.activufrj.nce.ufrj.br
    :alt: LABASE
 
-.. |Daniel Pisa| image:: https://i.imgur.com/wRPm7BZ.png
+.. |Daniel Piza| image:: https://i.imgur.com/wRPm7BZ.png
    :target: https://activufrj.nce.ufrj.br/community/Games_Costa_Barros
    :alt: Games Costa Barros
    :width: 800px
@@ -65,6 +66,8 @@ LABASE_ - NCE_ - UFRJ_
 
 .. |license| image:: https://img.shields.io/github/license/labase/supyplay
    :target: https://raw.githubusercontent.com/labase/supyplay/main/LICENSE
+
+.. _Citonópolis: https://bit.ly/g_citonopolis
 
 .. _Jogo da Genética: https://bit.ly/g_genes
 

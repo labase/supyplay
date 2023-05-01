@@ -17,7 +17,7 @@ Executor de Games Inteligentes Desenvolvidos na Escola Daniel Piza em Costa Barr
 Jogos Daniel Piza
 ------------------
 
-Diversos jogos foram desenvolvidos ao longo dos anos na Daniel Pisa
+Diversos jogos foram desenvolvidos ao longo dos anos na Daniel Piza
 
 * `Citonópolis`_  - Uma Aventura na cidade das células orgânicas.
 * `Jogo da Genética`_  - Aprendendo a usar herdogramas
